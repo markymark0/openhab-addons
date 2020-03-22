@@ -99,7 +99,7 @@ Thing telegram:telegramBot:Telegram_Bot [ chatIds="< ID >", botToken="< TOKEN >"
 This binding includes a rule action, which allows to send Telegram messages from within rules.
 
 ```
-val telegramAction = getActions("telegram","telegram:telegramBot:<uid>")
+val telegramAction = getActions("telegram","telegram:telegramBot:<id>")
 ```
 
 where uid is the Thing UID of the Telegram thing (not the chat id!).
